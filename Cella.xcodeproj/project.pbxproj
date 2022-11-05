@@ -7,23 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F848B2CC28F45B5900596357 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848B2CB28F45B5900596357 /* Color.swift */; };
+		F848B2CE28F45B6F00596357 /* LoadingAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848B2CD28F45B6F00596357 /* LoadingAlert.swift */; };
+		F848B2D028F45B8900596357 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848B2CF28F45B8900596357 /* Toast.swift */; };
+		F848B2D528F45E2300596357 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F848B2D428F45E2300596357 /* IQKeyboardManagerSwift */; };
+		F848B2D828F4744000596357 /* DebtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848B2D728F4744000596357 /* DebtViewController.swift */; };
+		F875E66128FD90430054117B /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F875E66028FD90430054117B /* DropDownCell.swift */; };
+		F88F12A828F7076500D3864D /* LabelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F12A728F7076500D3864D /* LabelButton.swift */; };
+		F8B915272905277A00B4C8DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8B915292905277A00B4C8DF /* Localizable.strings */; };
 		F8CE601E28F43513006ACC7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE601D28F43513006ACC7B /* AppDelegate.swift */; };
 		F8CE602028F43513006ACC7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE601F28F43513006ACC7B /* SceneDelegate.swift */; };
-		F8CE602228F43513006ACC7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE602128F43513006ACC7B /* ViewController.swift */; };
-		F8CE602528F43513006ACC7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CE602328F43513006ACC7B /* Main.storyboard */; };
+		F8CE602228F43513006ACC7B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE602128F43513006ACC7B /* RegisterViewController.swift */; };
 		F8CE602728F43515006ACC7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CE602628F43515006ACC7B /* Assets.xcassets */; };
 		F8CE602A28F43515006ACC7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CE602828F43515006ACC7B /* LaunchScreen.storyboard */; };
+		F8CE603528F436CE006ACC7B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE603428F436CE006ACC7B /* MainViewController.swift */; };
+		F8CE603828F436EA006ACC7B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE603728F436EA006ACC7B /* SearchViewController.swift */; };
+		F8CE603C28F437D7006ACC7B /* WarehouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE603B28F437D7006ACC7B /* WarehouseViewController.swift */; };
+		F8CE603F28F43801006ACC7B /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE603E28F43800006ACC7B /* AddProductViewController.swift */; };
+		F8CE604228F4381D006ACC7B /* AnalyzeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE604128F4381D006ACC7B /* AnalyzeViewController.swift */; };
+		F8CE604628F4383C006ACC7B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE604528F4383C006ACC7B /* ProfileViewController.swift */; };
+		F8CE604928F43964006ACC7B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F8CE604828F43964006ACC7B /* FirebaseAuth */; };
+		F8CE604B28F43964006ACC7B /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F8CE604A28F43964006ACC7B /* FirebaseAuthCombine-Community */; };
+		F8CE604D28F43964006ACC7B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F8CE604C28F43964006ACC7B /* FirebaseFirestore */; };
+		F8CE604F28F43964006ACC7B /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F8CE604E28F43964006ACC7B /* FirebaseFirestoreCombine-Community */; };
+		F8CE605128F43964006ACC7B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F8CE605028F43964006ACC7B /* FirebaseFirestoreSwift */; };
+		F8CE605328F43964006ACC7B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F8CE605228F43964006ACC7B /* FirebaseStorage */; };
+		F8CE605528F43964006ACC7B /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F8CE605428F43964006ACC7B /* FirebaseStorageCombine-Community */; };
+		F8E82FFC2907E6300054F2A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8E82FFB2907E6300054F2A5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F848B2CB28F45B5900596357 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F848B2CD28F45B6F00596357 /* LoadingAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAlert.swift; sourceTree = "<group>"; };
+		F848B2CF28F45B8900596357 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		F848B2D728F4744000596357 /* DebtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtViewController.swift; sourceTree = "<group>"; };
+		F875E66028FD90430054117B /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		F88F12A728F7076500D3864D /* LabelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelButton.swift; sourceTree = "<group>"; };
+		F8B915282905277A00B4C8DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F8B9152A290527E700B4C8DF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F8CE601A28F43513006ACC7B /* Cella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CE601D28F43513006ACC7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8CE601F28F43513006ACC7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8CE602128F43513006ACC7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F8CE602428F43513006ACC7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8CE602128F43513006ACC7B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F8CE602628F43515006ACC7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8CE602928F43515006ACC7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8CE602B28F43515006ACC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CE603428F436CE006ACC7B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F8CE603728F436EA006ACC7B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F8CE603B28F437D7006ACC7B /* WarehouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarehouseViewController.swift; sourceTree = "<group>"; };
+		F8CE603E28F43800006ACC7B /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		F8CE604128F4381D006ACC7B /* AnalyzeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeViewController.swift; sourceTree = "<group>"; };
+		F8CE604528F4383C006ACC7B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F8E82FFB2907E6300054F2A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +66,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CE605128F43964006ACC7B /* FirebaseFirestoreSwift in Frameworks */,
+				F848B2D528F45E2300596357 /* IQKeyboardManagerSwift in Frameworks */,
+				F8CE605528F43964006ACC7B /* FirebaseStorageCombine-Community in Frameworks */,
+				F8CE604928F43964006ACC7B /* FirebaseAuth in Frameworks */,
+				F8CE604F28F43964006ACC7B /* FirebaseFirestoreCombine-Community in Frameworks */,
+				F8CE604B28F43964006ACC7B /* FirebaseAuthCombine-Community in Frameworks */,
+				F8CE604D28F43964006ACC7B /* FirebaseFirestore in Frameworks */,
+				F8CE605328F43964006ACC7B /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F848B2CA28F45B3B00596357 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F848B2CB28F45B5900596357 /* Color.swift */,
+				F848B2CD28F45B6F00596357 /* LoadingAlert.swift */,
+				F848B2CF28F45B8900596357 /* Toast.swift */,
+				F88F12A728F7076500D3864D /* LabelButton.swift */,
+				F875E66028FD90430054117B /* DropDownCell.swift */,
+				F8B915292905277A00B4C8DF /* Localizable.strings */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F848B2D628F4742F00596357 /* Dept */ = {
+			isa = PBXGroup;
+			children = (
+				F848B2D728F4744000596357 /* DebtViewController.swift */,
+			);
+			path = Dept;
+			sourceTree = "<group>";
+		};
 		F8CE601128F43513006ACC7B = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +120,87 @@
 		F8CE601C28F43513006ACC7B /* Cella */ = {
 			isa = PBXGroup;
 			children = (
+				F8E82FFB2907E6300054F2A5 /* GoogleService-Info.plist */,
+				F8CE603128F43653006ACC7B /* View */,
 				F8CE601D28F43513006ACC7B /* AppDelegate.swift */,
 				F8CE601F28F43513006ACC7B /* SceneDelegate.swift */,
-				F8CE602128F43513006ACC7B /* ViewController.swift */,
-				F8CE602328F43513006ACC7B /* Main.storyboard */,
 				F8CE602628F43515006ACC7B /* Assets.xcassets */,
 				F8CE602828F43515006ACC7B /* LaunchScreen.storyboard */,
 				F8CE602B28F43515006ACC7B /* Info.plist */,
 			);
 			path = Cella;
+			sourceTree = "<group>";
+		};
+		F8CE603128F43653006ACC7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F848B2CA28F45B3B00596357 /* Utils */,
+				F8CE603328F43674006ACC7B /* Register */,
+				F8CE603228F4366F006ACC7B /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8CE603228F4366F006ACC7B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F8CE604428F4382C006ACC7B /* Profile */,
+				F8CE604028F43808006ACC7B /* Analyze */,
+				F8CE603D28F437DE006ACC7B /* AddProduct */,
+				F8CE603A28F437BD006ACC7B /* Warehouse */,
+				F8CE603628F436D9006ACC7B /* Search */,
+				F8CE603428F436CE006ACC7B /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F8CE603328F43674006ACC7B /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F8CE602128F43513006ACC7B /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		F8CE603628F436D9006ACC7B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F848B2D628F4742F00596357 /* Dept */,
+				F8CE603728F436EA006ACC7B /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F8CE603A28F437BD006ACC7B /* Warehouse */ = {
+			isa = PBXGroup;
+			children = (
+				F8CE603B28F437D7006ACC7B /* WarehouseViewController.swift */,
+			);
+			path = Warehouse;
+			sourceTree = "<group>";
+		};
+		F8CE603D28F437DE006ACC7B /* AddProduct */ = {
+			isa = PBXGroup;
+			children = (
+				F8CE603E28F43800006ACC7B /* AddProductViewController.swift */,
+			);
+			path = AddProduct;
+			sourceTree = "<group>";
+		};
+		F8CE604028F43808006ACC7B /* Analyze */ = {
+			isa = PBXGroup;
+			children = (
+				F8CE604128F4381D006ACC7B /* AnalyzeViewController.swift */,
+			);
+			path = Analyze;
+			sourceTree = "<group>";
+		};
+		F8CE604428F4382C006ACC7B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F8CE604528F4383C006ACC7B /* ProfileViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +219,16 @@
 			dependencies = (
 			);
 			name = Cella;
+			packageProductDependencies = (
+				F8CE604828F43964006ACC7B /* FirebaseAuth */,
+				F8CE604A28F43964006ACC7B /* FirebaseAuthCombine-Community */,
+				F8CE604C28F43964006ACC7B /* FirebaseFirestore */,
+				F8CE604E28F43964006ACC7B /* FirebaseFirestoreCombine-Community */,
+				F8CE605028F43964006ACC7B /* FirebaseFirestoreSwift */,
+				F8CE605228F43964006ACC7B /* FirebaseStorage */,
+				F8CE605428F43964006ACC7B /* FirebaseStorageCombine-Community */,
+				F848B2D428F45E2300596357 /* IQKeyboardManagerSwift */,
+			);
 			productName = Cella;
 			productReference = F8CE601A28F43513006ACC7B /* Cella.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +255,13 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = F8CE601128F43513006ACC7B;
+			packageReferences = (
+				F8CE604728F43964006ACC7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F848B2D328F45E2300596357 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = F8CE601B28F43513006ACC7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8CE602A28F43515006ACC7B /* LaunchScreen.storyboard in Resources */,
+				F8E82FFC2907E6300054F2A5 /* GoogleService-Info.plist in Resources */,
+				F8B915272905277A00B4C8DF /* Localizable.strings in Resources */,
 				F8CE602728F43515006ACC7B /* Assets.xcassets in Resources */,
-				F8CE602528F43513006ACC7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +290,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8CE602228F43513006ACC7B /* ViewController.swift in Sources */,
+				F8CE603C28F437D7006ACC7B /* WarehouseViewController.swift in Sources */,
+				F848B2D028F45B8900596357 /* Toast.swift in Sources */,
+				F88F12A828F7076500D3864D /* LabelButton.swift in Sources */,
+				F8CE604228F4381D006ACC7B /* AnalyzeViewController.swift in Sources */,
+				F8CE603F28F43801006ACC7B /* AddProductViewController.swift in Sources */,
+				F848B2CC28F45B5900596357 /* Color.swift in Sources */,
+				F8CE603828F436EA006ACC7B /* SearchViewController.swift in Sources */,
+				F8CE602228F43513006ACC7B /* RegisterViewController.swift in Sources */,
+				F848B2D828F4744000596357 /* DebtViewController.swift in Sources */,
+				F848B2CE28F45B6F00596357 /* LoadingAlert.swift in Sources */,
+				F875E66128FD90430054117B /* DropDownCell.swift in Sources */,
 				F8CE601E28F43513006ACC7B /* AppDelegate.swift in Sources */,
+				F8CE604628F4383C006ACC7B /* ProfileViewController.swift in Sources */,
 				F8CE602028F43513006ACC7B /* SceneDelegate.swift in Sources */,
+				F8CE603528F436CE006ACC7B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F8CE602328F43513006ACC7B /* Main.storyboard */ = {
+		F8B915292905277A00B4C8DF /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F8CE602428F43513006ACC7B /* Base */,
+				F8B915282905277A00B4C8DF /* en */,
+				F8B9152A290527E700B4C8DF /* ru */,
 			);
-			name = Main.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		F8CE602828F43515006ACC7B /* LaunchScreen.storyboard */ = {
@@ -170,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -290,11 +457,12 @@
 				DEVELOPMENT_TEAM = TQNTTDL9C6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cella/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cella;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +470,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joma.Cella;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,11 +489,12 @@
 				DEVELOPMENT_TEAM = TQNTTDL9C6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cella/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Cella;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +502,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.joma.Cella;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -358,6 +533,68 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F848B2D328F45E2300596357 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.10;
+			};
+		};
+		F8CE604728F43964006ACC7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F848B2D428F45E2300596357 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F848B2D328F45E2300596357 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		F8CE604828F43964006ACC7B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8CE604728F43964006ACC7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F8CE604A28F43964006ACC7B /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8CE604728F43964006ACC7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		F8CE604C28F43964006ACC7B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8CE604728F43964006ACC7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F8CE604E28F43964006ACC7B /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8CE604728F43964006ACC7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		F8CE605028F43964006ACC7B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8CE604728F43964006ACC7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		F8CE605228F43964006ACC7B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8CE604728F43964006ACC7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		F8CE605428F43964006ACC7B /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F8CE604728F43964006ACC7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F8CE601228F43513006ACC7B /* Project object */;
 }

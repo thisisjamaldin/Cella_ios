@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1032480689473-jmms057ou6lvevkqnsh8k3liut0de5qi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1032480689473-jmms057ou6lvevkqnsh8k3liut0de5qi</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1032480689473-19ogt1il6r8i8u7p8tu87hd4fhejgudn.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDCBs8ftAreDPgEeQQ1gg2E1985r4f5d6o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1032480689473</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.joma.Cella</string>
+	<key>PROJECT_ID</key>
+	<string>cella-fb54f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cella-fb54f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1032480689473:ios:bf29bf21d37af8208d25c0</string>
+</dict>
+</plist>
