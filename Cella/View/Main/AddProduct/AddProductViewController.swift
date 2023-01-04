@@ -1,4 +1,5 @@
 import UIKit
+import RealmSwift
 
 class AddProductViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
@@ -15,6 +16,7 @@ class AddProductViewController: UIViewController, UITableViewDelegate, UITableVi
     let expirationDate = UIButton()
     var datePickerView = UIButton()
     let productImage = UIImageView()
+    let nameField = UITextField()
     
     let datePicker = UIDatePicker()
     var datePickerToolbar = UIToolbar()
@@ -122,7 +124,7 @@ class AddProductViewController: UIViewController, UITableViewDelegate, UITableVi
         codeLabel.leadingAnchor.constraint(equalTo: layout.leadingAnchor).isActive = true
         
         paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 12, height: 20))
-        let codeField = UITextField()
+        var codeField = UITextField()
         codeField.leftView = paddingView
         codeField.rightView = paddingView
         codeField.leftViewMode = .always
@@ -150,7 +152,6 @@ class AddProductViewController: UIViewController, UITableViewDelegate, UITableVi
         nameLabel.leadingAnchor.constraint(equalTo: layout.leadingAnchor).isActive = true
         
         paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 12, height: 20))
-        let nameField = UITextField()
         nameField.backgroundColor = Color().grey()
         nameField.layer.cornerRadius = 10
         nameField.leftView = paddingView
@@ -163,7 +164,7 @@ class AddProductViewController: UIViewController, UITableViewDelegate, UITableVi
         nameField.topAnchor.constraint(equalTo: nameLabel.bottomAnchor).isActive = true
         nameField.trailingAnchor.constraint(equalTo: layout.trailingAnchor).isActive = true
         
-        let costLabel = UILabel()
+        var costLabel = UILabel()
         costLabel.text = "Cost price"
         costLabel.textColor = Color().darkGrey()
         costLabel.font = codeLabel.font.withSize(12)
@@ -406,6 +407,7 @@ class AddProductViewController: UIViewController, UITableViewDelegate, UITableVi
         datePickerView.setTitle("\(timeFormatter.string(from: datePicker.date))", for: .normal)
         datePickerToolbar.removeFromSuperview()
         datePicker.removeFromSuperview()
+        var product = Product(name: nameField.text)
     }
     
     func addNeeded(v: UIView, parent: UIView? = nil){

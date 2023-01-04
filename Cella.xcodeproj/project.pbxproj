@@ -12,8 +12,14 @@
 		F848B2D028F45B8900596357 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848B2CF28F45B8900596357 /* Toast.swift */; };
 		F848B2D528F45E2300596357 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F848B2D428F45E2300596357 /* IQKeyboardManagerSwift */; };
 		F848B2D828F4744000596357 /* DebtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848B2D728F4744000596357 /* DebtViewController.swift */; };
+		F862F0AF2950AA62002CB745 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F862F0AE2950AA62002CB745 /* Payment.swift */; };
 		F875E66128FD90430054117B /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F875E66028FD90430054117B /* DropDownCell.swift */; };
 		F88F12A828F7076500D3864D /* LabelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88F12A728F7076500D3864D /* LabelButton.swift */; };
+		F89009DE294C6A3900C92D25 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89009DD294C6A3900C92D25 /* Product.swift */; };
+		F89009E1294CBDB600C92D25 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F89009E0294CBDB600C92D25 /* Realm */; };
+		F89009E3294CBDB600C92D25 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F89009E2294CBDB600C92D25 /* RealmSwift */; };
+		F89009E5294DDAEF00C92D25 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89009E4294DDAEF00C92D25 /* User.swift */; };
+		F89009E9294DE1B400C92D25 /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89009E8294DE1B400C92D25 /* Access.swift */; };
 		F8B915272905277A00B4C8DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8B915292905277A00B4C8DF /* Localizable.strings */; };
 		F8CE601E28F43513006ACC7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE601D28F43513006ACC7B /* AppDelegate.swift */; };
 		F8CE602028F43513006ACC7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE601F28F43513006ACC7B /* SceneDelegate.swift */; };
@@ -41,8 +47,12 @@
 		F848B2CD28F45B6F00596357 /* LoadingAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAlert.swift; sourceTree = "<group>"; };
 		F848B2CF28F45B8900596357 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		F848B2D728F4744000596357 /* DebtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtViewController.swift; sourceTree = "<group>"; };
+		F862F0AE2950AA62002CB745 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
 		F875E66028FD90430054117B /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
 		F88F12A728F7076500D3864D /* LabelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelButton.swift; sourceTree = "<group>"; };
+		F89009DD294C6A3900C92D25 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F89009E4294DDAEF00C92D25 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F89009E8294DE1B400C92D25 /* Access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access.swift; sourceTree = "<group>"; };
 		F8B915282905277A00B4C8DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F8B9152A290527E700B4C8DF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F8CE601A28F43513006ACC7B /* Cella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cella.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,7 +82,9 @@
 				F8CE604928F43964006ACC7B /* FirebaseAuth in Frameworks */,
 				F8CE604F28F43964006ACC7B /* FirebaseFirestoreCombine-Community in Frameworks */,
 				F8CE604B28F43964006ACC7B /* FirebaseAuthCombine-Community in Frameworks */,
+				F89009E1294CBDB600C92D25 /* Realm in Frameworks */,
 				F8CE604D28F43964006ACC7B /* FirebaseFirestore in Frameworks */,
+				F89009E3294CBDB600C92D25 /* RealmSwift in Frameworks */,
 				F8CE605328F43964006ACC7B /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +113,17 @@
 			path = Dept;
 			sourceTree = "<group>";
 		};
+		F89009DC294C690200C92D25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F89009DD294C6A3900C92D25 /* Product.swift */,
+				F89009E4294DDAEF00C92D25 /* User.swift */,
+				F89009E8294DE1B400C92D25 /* Access.swift */,
+				F862F0AE2950AA62002CB745 /* Payment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F8CE601128F43513006ACC7B = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +143,7 @@
 		F8CE601C28F43513006ACC7B /* Cella */ = {
 			isa = PBXGroup;
 			children = (
+				F89009DC294C690200C92D25 /* Model */,
 				F8E82FFB2907E6300054F2A5 /* GoogleService-Info.plist */,
 				F8CE603128F43653006ACC7B /* View */,
 				F8CE601D28F43513006ACC7B /* AppDelegate.swift */,
@@ -228,6 +252,8 @@
 				F8CE605228F43964006ACC7B /* FirebaseStorage */,
 				F8CE605428F43964006ACC7B /* FirebaseStorageCombine-Community */,
 				F848B2D428F45E2300596357 /* IQKeyboardManagerSwift */,
+				F89009E0294CBDB600C92D25 /* Realm */,
+				F89009E2294CBDB600C92D25 /* RealmSwift */,
 			);
 			productName = Cella;
 			productReference = F8CE601A28F43513006ACC7B /* Cella.app */;
@@ -261,6 +287,7 @@
 			packageReferences = (
 				F8CE604728F43964006ACC7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				F848B2D328F45E2300596357 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				F89009DF294CBDB600C92D25 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = F8CE601B28F43513006ACC7B /* Products */;
 			projectDirPath = "";
@@ -297,12 +324,16 @@
 				F8CE603F28F43801006ACC7B /* AddProductViewController.swift in Sources */,
 				F848B2CC28F45B5900596357 /* Color.swift in Sources */,
 				F8CE603828F436EA006ACC7B /* SearchViewController.swift in Sources */,
+				F89009E9294DE1B400C92D25 /* Access.swift in Sources */,
+				F89009E5294DDAEF00C92D25 /* User.swift in Sources */,
 				F8CE602228F43513006ACC7B /* RegisterViewController.swift in Sources */,
 				F848B2D828F4744000596357 /* DebtViewController.swift in Sources */,
+				F89009DE294C6A3900C92D25 /* Product.swift in Sources */,
 				F848B2CE28F45B6F00596357 /* LoadingAlert.swift in Sources */,
 				F875E66128FD90430054117B /* DropDownCell.swift in Sources */,
 				F8CE601E28F43513006ACC7B /* AppDelegate.swift in Sources */,
 				F8CE604628F4383C006ACC7B /* ProfileViewController.swift in Sources */,
+				F862F0AF2950AA62002CB745 /* Payment.swift in Sources */,
 				F8CE602028F43513006ACC7B /* SceneDelegate.swift in Sources */,
 				F8CE603528F436CE006ACC7B /* MainViewController.swift in Sources */,
 			);
@@ -543,6 +574,14 @@
 				version = 6.5.10;
 			};
 		};
+		F89009DF294CBDB600C92D25 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.33.0;
+			};
+		};
 		F8CE604728F43964006ACC7B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -558,6 +597,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F848B2D328F45E2300596357 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
+		};
+		F89009E0294CBDB600C92D25 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F89009DF294CBDB600C92D25 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F89009E2294CBDB600C92D25 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F89009DF294CBDB600C92D25 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 		F8CE604828F43964006ACC7B /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
